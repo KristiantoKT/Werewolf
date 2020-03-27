@@ -67,7 +67,7 @@ namespace Werewolf_Control.Helpers
         public static List<string> CultWins = new List<string> { "CgACAgQAAxkBAAIH2159qjL_QTqdhv1nhSvsVw4QrE8mAAIUAgACbGPkU-lHbuiVmdQaGAQ", "CgACAgQAAxkBAAIH3V59qjYDUo7DeWmhKN7C7cXGRfVNAAIlAgAC7v_tU6KSZGA_VP2QGAQ" };
         public static List<string> SerialKillerWins = new List<string> { "CgACAgQAAxkBAAIH4V59qlCrRz1rsoyG2ceDEKEZ5rXXAAJAAgAC9CjtUsHm90K8SZdFGAQ", "CgACAgQAAxkBAAIH4159qlFzvr1QqOniOZEFH0qxTaOzAAJLAgACSBXsUvVQum_dGE79GAQ", "CgACAgQAAxkBAAIH3159qk0enwjFHD3UJmydEolEwSPUAAJzAgACwhTsUnvzE-sQEqrkGAQ" };
         public static List<string> LoversWin = new List<string> { "CgACAgQAAxkBAAIH5V59qoVIDd8vvnwStWtv2PIl934tAAIIAgAC6Z_1Uk87hpoiUU-sGAQ", "CgACAgQAAxkBAAIH5159qrwNLC1iKC3VAAEefs0woN8TBAACDgIAAmwa7FJ23lcYXiyhThgE" };
-        public static List<string> SKKilled = new List<string> { "CgACAgQAAxkBAAIH6V59qtjUyy751KXh40UtD8qBV7CyAAIOAgACGsXtUw90K-DSv6DoGAQ", "CgACAgQAAxkBAAIH6159qxnQSEvcqe6OkykGiHVc0NHpAALLAQACBinsU3qNOQxanAjTGAQ" };
+        public static List<string> SKKilled = new List<string> { "CgACAgQAAxkBAAIH4V59qlCrRz1rsoyG2ceDEKEZ5rXXAAJAAgAC9CjtUsHm90K8SZdFGAQ", "CgACAgQAAxkBAAIH4159qlFzvr1QqOniOZEFH0qxTaOzAAJLAgACSBXsUvVQum_dGE79GAQ", "CgACAgQAAxkBAAIH3159qk0enwjFHD3UJmydEolEwSPUAAJzAgACwhTsUnvzE-sQEqrkGAQ" };
         public static List<string> ArsonistWins = new List<string> { "CgACAgQAAxkBAAIH7V59qyQpDk0VwGwM9M-8HgLEuq12AAIRAgACB4T1UrrTc8OLi7TaGAQ" };
         public static List<string> BurnToDeath = new List<string> { "CgACAgQAAxkBAAIH7159qzGN_LyGvqtLZtHyxkDXfOMtAALlAQACa77kU9Pr83gxp247GAQ" };
 #else
@@ -82,7 +82,7 @@ namespace Werewolf_Control.Helpers
         public static List<string> CultWins = new List<string> { "CgACAgQAAxkBAAIH2159qjL_QTqdhv1nhSvsVw4QrE8mAAIUAgACbGPkU-lHbuiVmdQaGAQ", "CgACAgQAAxkBAAIH3V59qjYDUo7DeWmhKN7C7cXGRfVNAAIlAgAC7v_tU6KSZGA_VP2QGAQ" };
         public static List<string> SerialKillerWins = new List<string> { "CgACAgQAAxkBAAIH4V59qlCrRz1rsoyG2ceDEKEZ5rXXAAJAAgAC9CjtUsHm90K8SZdFGAQ", "CgACAgQAAxkBAAIH4159qlFzvr1QqOniOZEFH0qxTaOzAAJLAgACSBXsUvVQum_dGE79GAQ", "CgACAgQAAxkBAAIH3159qk0enwjFHD3UJmydEolEwSPUAAJzAgACwhTsUnvzE-sQEqrkGAQ" };
         public static List<string> LoversWin = new List<string> { "CgACAgQAAxkBAAIH5V59qoVIDd8vvnwStWtv2PIl934tAAIIAgAC6Z_1Uk87hpoiUU-sGAQ", "CgACAgQAAxkBAAIH5159qrwNLC1iKC3VAAEefs0woN8TBAACDgIAAmwa7FJ23lcYXiyhThgE" };
-        public static List<string> SKKilled = new List<string> { "CgACAgQAAxkBAAIH6V59qtjUyy751KXh40UtD8qBV7CyAAIOAgACGsXtUw90K-DSv6DoGAQ", "CgACAgQAAxkBAAIH6159qxnQSEvcqe6OkykGiHVc0NHpAALLAQACBinsU3qNOQxanAjTGAQ" };
+        public static List<string> SKKilled = new List<string> { "CgACAgQAAxkBAAIH4V59qlCrRz1rsoyG2ceDEKEZ5rXXAAJAAgAC9CjtUsHm90K8SZdFGAQ", "CgACAgQAAxkBAAIH4159qlFzvr1QqOniOZEFH0qxTaOzAAJLAgACSBXsUvVQum_dGE79GAQ", "CgACAgQAAxkBAAIH3159qk0enwjFHD3UJmydEolEwSPUAAJzAgACwhTsUnvzE-sQEqrkGAQ" };
         public static List<string> ArsonistWins = new List<string> { "CgACAgQAAxkBAAIH7V59qyQpDk0VwGwM9M-8HgLEuq12AAIRAgACB4T1UrrTc8OLi7TaGAQ" };
         public static List<string> BurnToDeath = new List<string> { "CgACAgQAAxkBAAIH7159qzGN_LyGvqtLZtHyxkDXfOMtAALlAQACa77kU9Pr83gxp247GAQ" };
 #endif
