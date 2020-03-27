@@ -5876,20 +5876,20 @@ namespace Werewolf_Node
 
         private void AddAchievement(IPlayer player, AchievementsReworked a)
         {
-            // using (var db = new WWContext())
-            // {
-            //     var p = GetDBPlayer(player, db);
-            //     if (p != null)
-            //     {
-            //         var ach = p.NewAchievements == null ? new BitArray(200) : new BitArray(p.NewAchievements);
-            //         if (ach.HasFlag(a)) return; //no point making another db call if they already have it
-            //         ach = ach.Set(a);
-            //         p.NewAchievements = ach.ToByteArray();
-            //         db.SaveChanges();
+            using (var db = new WWContext())
+            {
+                var p = GetDBPlayer(player, db);
+                if (p != null)
+                {
+                    var ach = p.NewAchievements == null ? new BitArray(200) : new BitArray(p.NewAchievements);
+                    if (ach.HasFlag(a)) return; //no point making another db call if they already have it
+                    ach = ach.Set(a);
+                    p.NewAchievements = ach.ToByteArray();
+                    db.SaveChanges();
 
-            //         Send($"Achievement Unlocked!\n{a.GetName().ToBold()}\n{a.GetDescription()}", player.Id);
-            //     }
-            // }
+                    Send($"Achievement Unlocked!\n{a.GetName().ToBold()}\n{a.GetDescription()}", player.Id);
+                }
+            }
         }
 
         /*
